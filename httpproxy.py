@@ -37,7 +37,7 @@ def getProxyList(targeturl="http://www.xicidaili.com/nn/"):
             else:
                 nation =   tds[1].find('img')['alt'].strip()
                 locate  =   tds[4].text.strip()
-            ip      =   tds[2].text.strip()
+            ip      =   tds[1].text.strip()
             port    =   tds[3].text.strip()
             anony   =   tds[5].text.strip()
             protocol=   tds[6].text.strip()
